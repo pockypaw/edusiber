@@ -1,0 +1,19 @@
+    /* Add CSS to center-align text in table cells */
+    #example td {
+        text-align: center;
+        vertical-align: middle; /* Center-aligns text vertically */
+    }
+
+    /* Center-align text in header and footer cells if needed */
+    #example th {
+        text-align: center;
+    }
+
+    .login-img {
+        background-image: url('https://img.freepik.com/free-vector/online-education-background_52683-8091.jpg?ga=GA1.1.1438363141.1721884140&semt=ais_user');
+        background-size: cover; /* Menyebar gambar ke seluruh elemen */
+        background-position: center; /* Menempatkan gambar di tengah elemen */
+        background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+        height: 100vh; /* Mengatur tinggi elemen sesuai viewport */
+        width: 100%; /* Mengatur lebar elemen 100% */
+    }
